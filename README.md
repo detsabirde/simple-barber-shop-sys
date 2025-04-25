@@ -25,36 +25,7 @@ A real-time barbershop management system built with Node.js, Express, MongoDB, a
 
 - **Backend**: Node.js + Express
 - **Database**: MongoDB (Atlas)
-- **Real-time updates**: Socket.IO
+- **Real-time updates**: Socket.IO (still not completed yet )
 - **Frontend**: Plain HTML + Tailwind CSS
 
-## Installation
-
-1. Clone the repository:
-\`\`\`bash
-git clone https://github.com/yourusername/barbershop-management.git
-cd barbershop-management
-\`\`\`
-
-2. Install dependencies:
-\`\`\`bash
-npm install
-\`\`\`
-
-3. Set up environment variables:
-Create a `.env` file in the root directory with the following:
-\`\`\`
-MONGODB_URI=your_mongodb_connection_string
-PORT=3000
-\`\`\`
-
-4. Start the server:
-\`\`\`bash
-npm start
-\`\`\`
-
-5. Access the application:
-- Homepage (TV Display): http://localhost:3000
-- Admin Page: http://localhost:3000/admin
-- Daily Income Summary: http://localhost:3000/income
 
